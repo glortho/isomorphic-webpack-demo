@@ -1,3 +1,4 @@
 .greetings {
+  composes: foo from '~/foo.css';
   font-weight: bold;
 }

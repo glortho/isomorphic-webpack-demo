@@ -4,6 +4,11 @@ import path from 'path';
 
 export default {
   context: __dirname,
+  resolve: {
+    alias: {
+      '~': path.join( __dirname, 'app' )
+    }
+  },
   entry: {
     app: [
       path.resolve(__dirname, './app')

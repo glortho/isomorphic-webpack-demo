@@ -42,6 +42,7 @@ app.use(async (req, res, next) => {
 });
 
 const renderFullPage = (body) => {
+  console.log(body);
   // eslint-disable-next-line no-restricted-syntax
   return `
   <!doctype html>
